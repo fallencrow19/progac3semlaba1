@@ -1,8 +1,7 @@
-#include "lib.h"
-
 #include <iostream>
+#include "version.h"
 
-int main (int, char **) {
-    std::cout << "Hello, World! Version 1.0." << version() << std::endl;
+int main() {
+    std::cout << "Hello, World! Version " << version() << std::endl;
     return 0;
 }
